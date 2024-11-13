@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#811E5E69"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-71dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/image_placeholder6"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:contentDescription="Upload Image"
+                android:src="" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="278dp"
+                app:srcCompat="@drawable/aaaaaa" />
+
+            <EditText
+                android:id="@+id/travel_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Начало маршрута: Ереван"
+                android:padding="8dp" />
+
+            <ImageView
+                android:id="@+id/image_placeholder15"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:contentDescription="Upload Image"
+                android:src="" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) Ереван &quot; Международный аэропорт Звартноц&quot;" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Такси 1ч54м" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20-35$" />
+
+            <ImageView
+                android:id="@+id/image_placeholder16"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:contentDescription="Upload Image"
+                android:src="" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/image_placeholder17"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:contentDescription="Upload Image"
+                android:src="" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/image_placeholder18"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:contentDescription="Upload Image"
+                android:src="" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/image_placeholder14"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:contentDescription="Upload Image"
+                android:src="" />
+
+            <Button
+                android:id="@+id/save_button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#3BDFBE"
+                android:text="Записаться" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

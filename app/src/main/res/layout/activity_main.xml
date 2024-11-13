@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#811E5E69"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Eреван"
+            android:textColor="#453C96"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/faf" />
+
+        <ImageView
+            android:id="@+id/image_placeholder2"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="#811E5E69"
+            android:contentDescription="Upload Image"
+            android:src="" />
+
+        <ImageView
+            android:id="@+id/image_placeholder3"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="#811E5E69"
+            android:contentDescription="Upload Image"
+            android:src="" />
+
+        <ImageView
+            android:id="@+id/image_placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="#811E5E69"
+            android:contentDescription="Upload Image"
+            android:src="" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#811E5E69"
+            android:backgroundTint="#3BDFBE"
+            android:text="Путешестуй вместе с нами " />
+
+        <ImageView
+            android:id="@+id/travel_image"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#811E5E69"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/dad" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/dad" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
